@@ -93,6 +93,9 @@ class UserSearch extends Model
             return $dataProvider;
         }
 
+        /**
+         * Fix
+         */
         $model = $query->modelClass;
         $table_name = $model::tableName();
 
